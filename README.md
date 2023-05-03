@@ -24,6 +24,21 @@ pip3 install requests
 pip3 install json
 ```
 
+### Getting the bot token
+To get a bot token for your Discord bot, you need to create a new application and bot account on the Discord Developer Portal. Here are the steps to follow:
+
+Go to the Discord Developer Portal and log in with your Discord account.
+
+Click on the "New Application" button and enter a name for your application. This name will be visible to users who authorize your bot.
+
+Once you have created the application, click on the "Bot" tab on the left-hand side and click on the "Add Bot" button to create a new bot account.
+
+Customize the bot account by adding a name, avatar, and description. You can also set permissions for the bot to restrict what it can do in Discord servers.
+
+After you have created the bot account, you will see a "Token" section with a button to "Copy" the bot token. Click on the "Copy" button and save the token to a safe place.
+
+To use the bot token in your Python code, replace the placeholder text INSERT_DISCORD_BOT_TOKEN_HERE in the client.run() method call at the end of the code with the actual token you copied from the Discord Developer Portal.
+
 ### Usage
 
 To use the bot, simply provide a valid Discord bot token in the `client.run()` method call at the end of the script, and run it with Python 3. The bot will listen for messages starting with the command `!subreddit`, followed by the name of the subreddit to fetch posts from.
