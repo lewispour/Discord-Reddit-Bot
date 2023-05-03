@@ -18,7 +18,8 @@ This is a Python script that uses the `discord.py` library to implement a simple
 - `json` library
 - A valid Discord bot token
 
-```pip3 install discord.py
+```
+pip3 install discord.py
 pip3 install requests
 pip3 install json
 ```
