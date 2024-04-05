@@ -42,3 +42,5 @@ To use the bot token in your Python code, replace the placeholder text INSERT_DI
 To use the bot, simply provide a valid Discord bot token in the `client.run()` method call at the end of the script, and run it with Python 3. The bot will listen for messages starting with the command `!subreddit`, followed by the name of the subreddit to fetch posts from.
 
 For example, to fetch the top posts from the `aww` subreddit, type `!subreddit aww` in a Discord chat where the bot is present.
+
+Tested Working - 05/04/2024
